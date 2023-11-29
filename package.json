@@ -1,0 +1,22 @@
+{
+  "name": "testtree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently -c \"auto\" \"npm:watch\" \"npm:dev\"",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "preview": "vite preview --host --open"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@datastructures-js/binary-search-tree": "^5.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "vite": "^5.0.2"
+  }
+}
